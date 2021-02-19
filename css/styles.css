@@ -5,7 +5,7 @@
 	/* Fonts */
 	--font-family1: 'Lato', sans-serif;
     --font-family2: 'Oswald', sans-serif;
-    --font-family3: 'Tangerine', cursive;
+    --font-family3: 'Avenir', cursive;
 	
     /* Colors */
 	--main-color-gray: #485359;
@@ -24,14 +24,18 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Example Syntax */
 #sec_lan {
-	height: 200vh;
+	height:30vh;
 	background-color: var(--main-color-white);
-    font-family: 'Lato';
+    font-family: 'Avenir';
 }
 
-#sec_nav{height: 30vh;
+#sec_nav{height: 31vh;
 	background-color: var(--main-color-dark3);
     font-family: 'Oswald';}
+
+#sec_abo{height: 25vh;
+	background-color: var(--main-color-light2);
+    font-family: 'Avenir';}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
