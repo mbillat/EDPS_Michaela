@@ -33,7 +33,7 @@ No media query for `xs` since this is the default in Bootstrap */
 	background-color: var(--main-color-dark3);
     font-family: 'Oswald';}
 
-#sec_abo{height: 25vh;
+#sec_abo{height: 100vh;
 	background-color: var(--main-color-light2);
     font-family: 'Avenir';}
 
