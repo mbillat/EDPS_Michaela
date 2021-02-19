@@ -13,29 +13,50 @@
 			crossorigin="anonymous"
 		/>
 
-		<title>EDPS 6560 Spring 2020 - Week 2</title>
+		<!-- FontAwesome CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat|Roboto&display=swap" rel="stylesheet" />
+
+		<!-- Main Stylesheet -->
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<style>
+			/* Hi, I'm an internal stylesheet, and I usually appear within the header section following the external stylesheets listed above. */
+			#sec_lan {
+				height: 200vh;
+			}
+		</style>
+
+		<title>Portfolio</title>
 	</head>
 
 	<body>
 		<!-- Intro - 
         -->
-		<div id="sec_lan">
-			<h1><strong><span style="font-family: verdana;"></spa>Micheala Griffiths</strong></h1>
-            
-			<h2><span style="font-family: verdana; font-size: 20pt;">Instructional Designer with an emphasis in History</h2>
-                
-			<h4><span style="font-family: verdana; font-size: 14pt;">Lesson Plans | Interactive HIstory Simulations | Tools for Teaching </h4>
-                
-            <br>
-			<h5><span style="font-family: verdana; font-size: 14pt;">
-				Creating instructional design and technology focused on bringing life to the History Classroom, and helping all teachers of every subject. 
-			</h5>
-        <!-- List --->
-		</div>
+		<div id="sec_lan" class="container-fluid" style="height: 200vh;">
+            <div id="sec_lan_header" class="row justify-content-between" style="height: 15vh;"></div>
+				<div class="col-auto">
+			     <h1>Micheala Griffiths</h1>
+                </div>
+				<div class="col-auto">
+					<a href="contact.html"><i class="fas fa-envelope"></i> Contact Me</a>
+                </div>
+            </div>
+			<div id="sec_lan_sec1" class="row justify-content-around align-items-center" style="height: 85vh;">
+                <div class="col-auto"></div>
+                <h2>Instructional Designer with an emphasis in History</h2>   
+                    <h4>Lesson Plans | Interactive HIstory Simulations | Tools for Teaching </h4> 
+            </div>
+            <div id="sec_lan_sec2" class="row justify-content-around" style="height: 100vh;"></div>
+				<div class="col-4 offset-1 align-self-center">
+			 <h5> Creating instructional design and technology focused on bringing life to the History Classroom, and helping all teachers of every subject. </h5>
+        </div>
 		<div id="sec_nav">
 			<ul>
 				<li><a class="btn btn-outline-dark" href="#sec_abo">About Me</a></li>
-				<li>Experience</li>
+                <li><a class="btn btn-outline-dark">Experience</a></li>
 				<li><a class="btn btn-outline-dark"> Educations </a></li>
 				<li><a class="btn btn-outline-dark" href="projects/1.html">Portfolio</a></li>
 				<li><a class="btn btn-outline-dark"> Tips & Tricks </a></li>
@@ -56,11 +77,11 @@
 		<div id="sec_exp">
             
 			<!-- Start Experience Section -->
-			<h1>Experience</h1>
+            <h1>Experience</h1>
 			<h2>History Teacher</h2>
-          <h3><span>Riverton, Utah</span></h3>
-			<p>August 2019 - <em>present</em></p>
-			<p class="par_exp">
+            <h3><span>Riverton, Utah</span></h3>
+			 <p>August 2019 - <em>present</em></p>
+			 <p class="par_exp">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur.
@@ -68,7 +89,6 @@
 		</div>
 		<!-- End Experience Section -->
 
-		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
