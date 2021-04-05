@@ -377,3 +377,87 @@ a:hover, a:focus, a:active {
   color: #ecb807 !important;
 }
 .lead mb-5 {font-family: Avenir;!important;}
+
+.element1{
+    color:black;
+    background-color: #DFDFDF;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border: 30px solid pink;
+    margin: 10px;
+    background-image: url("../img/globe.jpg")
+}
+.Scale{
+    background-color: purple;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border: 30px solid pink;
+    margin: 10px;
+}
+.element2{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border: 30px solid teal;
+    margin: 10px;
+}
+.parent{
+    font-size: 30px
+    background-color: #00AAFF;
+    padding: 5px;
+    position: relative;
+    height: 200vh; 
+}
+.child-one{
+    background-color: azure; 
+    position: sticky; 
+}
+.child-two{
+    background-color: cadetblue;
+}
+.child-three{
+    background-color: darkblue;
+}
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.flexbox-item{
+    width:200px;
+    margin: 10px; 
+    border: 7px solid #1D809F;
+    background-color: #fff;    
+    align-items: center; 
+}
+.flexbox-item-1{
+   min-height: 200px;
+    text-align: left;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    font-family: avenir; 
+    font-size: 30px;
+}
+.flexbox-item-2{
+     min-height: 200px;
+    text-align: left;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    font-family: avenir; 
+    font-size: 30px;
+}
+.flexbox-item-3{
+    min-height: 200px;
+    text-align: left;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    font-family: avenir; 
+    font-size: 30px;
+}
